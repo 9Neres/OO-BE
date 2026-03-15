@@ -22,13 +22,13 @@ Objeto literal e uma forma simples de criar objeto em JavaScript usando `{}`. De
 
 ### Reflexao
 
-Mesmo usando `const`, o objeto pode ser alterado porque o que fica constante e a referencia da variavel, e nao o conteudo dentro do objeto. Ou seja, pode mudar propriedades, mas nao pode trocar o objeto inteiro por outro.
+Mesmo usando `const`, o objeto pode ser alterado porque o que fica constante e a referencia da variavel, e nao o conteudo dentro do objeto. Ou seja, pode mudar propriedades, mas não pode trocar o objeto inteiro por outro.
 
 ## Desafio 2
 
 ### Diferenca entre funcao construtora e factory
 
-A funcao construtora normalmente usa `new` para criar o objeto. A factory function e uma funcao comum que cria e retorna o objeto diretamente.
+A função construtora normalmente usa `new` para criar o objeto. A factory function e uma funcao comum que cria e retorna o objeto diretamente.
 
 ### Reflexao
 
@@ -40,7 +40,7 @@ Eu achei a factory mais simples de entender, porque ela nao depende tanto do `th
 
 O `get` serve para pegar um valor e o `set` serve para definir um valor com mais controle. Eles ajudam quando a gente quer validar alguma informacao antes de aceitar.
 
-### Diferenca entre `Object.seal()` e `Object.freeze()`
+### Diferença entre `Object.seal()` e `Object.freeze()`
 
 O `seal()` fecha o objeto para nao adicionar nem remover propriedades, mas ainda deixa alterar valores que ja existem. O `freeze()` bloqueia tudo, entao nao da para adicionar, remover nem alterar.
 
@@ -50,9 +50,9 @@ O `seal()` fecha o objeto para nao adicionar nem remover propriedades, mas ainda
 
 O `__proto__` e a ligacao de um objeto com o seu prototipo. E por essa ideia que o JavaScript consegue herdar comportamentos de outro objeto.
 
-### Reflexao
+### Reflexão
 
-No JavaScript a heranca funciona mais por prototipos do que por classes do jeito tradicional. Um objeto pode aproveitar metodos de outro pela cadeia de prototipos.
+No JavaScript a heranca funciona mais por prototipos do que por classes do jeito tradicional. Um objeto pode aproveitar métodos de outro pela cadeia de prototipos.
 
 ## Desafio 5
 
@@ -62,8 +62,8 @@ JSON e mais rigido. Ele serve para troca de dados e tem regras como usar aspas d
 
 ### Reflexao
 
-Quando usei `JSON.stringify()`, a funcao sumiu. Isso acontece porque JSON foi feito para transportar dados, nao comportamentos. Em APIs REST isso faz sentido porque normalmente cliente e servidor trocam informacoes em texto, nao codigo executavel.
+Quando usei `JSON.stringify()`, a funcao sumiu. Isso acontece porque JSON foi feito para transportar dados, não comportamentos. Em APIs REST isso faz sentido porque normalmente cliente e servidor trocam informações em texto, não codigo executavel.
 
 ## Conclusao
 
-Com esta atividade deu para entender melhor que JavaScript trata objetos de um jeito bem flexivel. Tambem ficou mais claro como funcionam `const`, factory, construtor, getters, setters, prototipos e JSON.
+Com esta atividade deu para entender melhor como o JavaScript trata objetos de um jeito bem flexivel. Também ficou mais claro como funcionam `const`, factory, construtor, getters, setters, prototipos e JSON.
