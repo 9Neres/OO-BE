@@ -8,17 +8,17 @@ Este repositorio foi feito para a atividade sobre objetos em JavaScript. Aqui es
 
 Objeto literal e uma forma simples de criar objeto em JavaScript usando `{}`. Dentro dele colocamos propriedades e valores, e tambem pode ter funcoes.
 
-### Reflexao
+### Reflexão
 
 Mesmo usando `const`, o objeto pode ser alterado porque o que fica constante e a referencia da variavel, e nao o conteudo dentro do objeto. Ou seja, pode mudar propriedades, mas não pode trocar o objeto inteiro por outro.
 
 ## Desafio 2
 
-### Diferenca entre funcao construtora e factory
+### Diferenca entre função construtora e factory
 
 A função construtora normalmente usa `new` para criar o objeto. A factory function e uma funcao comum que cria e retorna o objeto diretamente.
 
-### Reflexao
+### Reflexão
 
 Eu achei a factory mais simples de entender, porque ela nao depende tanto do `this` e evita alguns erros quando a gente esquece de usar `new`.
 
@@ -44,11 +44,11 @@ No JavaScript a heranca funciona mais por prototipos do que por classes do jeito
 
 ## Desafio 5
 
-### Diferenca entre JSON e objeto JavaScript
+### Diferença entre JSON e objeto JavaScript
 
 JSON e mais rigido. Ele serve para troca de dados e tem regras como usar aspas duplas nas chaves e nao aceitar funcoes. Ja o objeto JavaScript e mais livre e pode ter funcoes, por exemplo.
 
-### Reflexao
+### Reflexão
 
 Quando usei `JSON.stringify()`, a funcao sumiu. Isso acontece porque JSON foi feito para transportar dados, não comportamentos. Em APIs REST isso faz sentido porque normalmente cliente e servidor trocam informações em texto, não codigo executavel.
 
