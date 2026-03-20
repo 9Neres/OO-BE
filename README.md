@@ -2,18 +2,6 @@
 
 Este repositorio foi feito para a atividade sobre objetos em JavaScript. Aqui estao as respostas teoricas no `README.md` e os testes praticos nos arquivos `.js`.
 
-## Como executar
-
-No terminal, use:
-
-```bash
-node DF1-ObjetoConst.js
-node DF2-FactoryVSConstrutor.js
-node DF3-GettersSettersEBloqueios.js
-node DF4-HerancaPrototipos.js
-node DF5-JsonVSObjeto.js
-```
-
 ## Desafio 1
 
 ### O que e um objeto literal?
